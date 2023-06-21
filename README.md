@@ -1,8 +1,6 @@
----
-title: What is there to gain by using `pytest`?
----
+# What is there to gain by using `pytest`?
 
-# History
+## History
 
 -   PyPy test suite
     -   testing focused development, probably because it&rsquo;s an alternate
@@ -12,7 +10,7 @@ title: What is there to gain by using `pytest`?
     -   test suite factored out: `py.test` -> `pytest`
 
 
-# How to write tests using `pytest`?
+## How to write tests using `pytest`?
 
 -   simple functions
     -   may group tests into classes
@@ -21,13 +19,13 @@ title: What is there to gain by using `pytest`?
     -   natural syntax
 
 
-# How does a failure look like?
+## How does a failure look like?
 
 -   rich output
 -   errors and failures
 
 
-# Running
+## Running
 
 -   test selection by name: `-k`
 -   builtin: `skip`, `skipif`, `xfail`
@@ -36,7 +34,7 @@ title: What is there to gain by using `pytest`?
     -   available inside fixtures
 
 
-# Fixtures
+## Fixtures
 
 -   default fixtures
     -   temporary path/directory
@@ -47,19 +45,19 @@ title: What is there to gain by using `pytest`?
 -   composable
 
 
-# Parametrisation
+## Parametrisation
 
 -   parametrised tests: `pytest.mark.parametrize`
 -   parametrisable fixtures: via `request.param`
 
 
-# Testing error messages
+## Testing error messages
 
 -   context manager
 -   i/o capture
 
 
-# `conftest`
+## `conftest`
 
 -   fixtures
 -   test helpers
@@ -69,7 +67,7 @@ title: What is there to gain by using `pytest`?
 ecosystem: extensive set of plugins
 
 
-# Incremental upgrade path
+## Incremental upgrade path
 
 <https://docs.pytest.org/en/stable/how-to/unittest.html>
 
